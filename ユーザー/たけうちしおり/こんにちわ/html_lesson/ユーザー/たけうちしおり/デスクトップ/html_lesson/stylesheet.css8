@@ -1,0 +1,346 @@
+html { box-sizing: border-box; } *, *:before, *:after { box-sizing: inherit; }
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.top{
+    background-image: url(https://img.cinematoday.jp/a/N1TZkEaZnTBo/_size_640x/_v_1576035628/TOP.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:300px 0 100px 0;
+}
+
+.topinside{
+    max-width: 1170px;
+    width: 100%;
+    margin:0 auto;
+    color: white;
+    text-align: center;
+    padding-left: 50%;
+}
+
+
+
+.top h1{
+    text-shadow: 2px 2px 1px #808080;
+    letter-spacing: 5px;
+    font-size: 50px;
+    font-weight: 600;
+}        
+
+.top span{
+    color: red;
+}
+
+.topinside a{
+    color: white;
+    text-decoration: none;
+    opacity: 0.8;
+    padding: 8px 24px;
+    border-radius: 4px;
+    display:inline-block;
+}
+
+.signup{
+    background-color: teal;
+    margin-top: 30px;
+}
+
+.facebook{
+ background-color: blue;
+ margin-right: 10px;
+}
+
+.twitter{
+ background-color: cornflowerblue;
+}
+
+.or{
+    margin: 15px 0;
+    font-size: 20px;
+    opacity: 0.6;
+}
+
+.top i{
+    padding-right: 5px;
+}
+
+.topinside a:hover{
+    opacity: 1;
+}
+
+
+
+
+.header{
+    background-color: black;
+    height: 65px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+
+}
+
+.headerinside{
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+.headerinside img{
+    float: left;
+}
+
+.login{
+    float: right;
+    color: white;
+    padding: 0 25px;
+    text-decoration: none;
+    display: inline-block;
+    background-color:rgb(255, 0, 0);
+    line-height: 65px;
+    transition: all 0.5s;
+}
+
+
+.headerinside a:hover{
+    background-color: rgb(255, 88, 88);
+}
+
+
+.lesson h1{
+    color:yellow;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 65px;
+    border-top: 2px solid yellow;
+    border-bottom: 2px solid yellow;
+    background: black;
+}
+
+.lesson{
+
+    background-color: rgb(37, 37, 37);
+}
+
+.lessoninside{
+    padding-top: 90px;
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.lessoncontent{
+    text-align: center;
+    float: right;
+    width: 25%;
+    color: white;
+    position: relative;
+}
+
+.lessonrelative{
+    width: 200px;
+    margin: 0 auto;
+}
+
+.lessoncontent h5{
+    position: absolute;
+    top: 100px;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+    font-weight: 600;
+    color: rgba(56, 52, 52, 0.836);
+    font-size: 17px;
+}
+
+.lessoncontent img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.lessoncontent p{
+    font-size: 15px;
+}
+
+
+
+.message{
+    background: black;
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.messageinside{
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+
+.message h2{
+    margin-bottom: 50px;
+    font-weight: normal;
+    border-top:2px solid rgba(255, 255, 255, 0.39);
+    border-bottom:2px solid rgba(255, 255, 255, 0.39);
+    line-height: 50px;
+    font-size: 20px;
+}
+
+.precautions {
+    display: block;
+    text-decoration: underline;
+}
+
+
+
+.precautions :hover{
+    cursor: pointer;
+    
+}
+
+.name{
+    margin-bottom: 50px;
+}
+
+.startbuttom{
+    display: inline-block;
+    background: yellowgreen;
+    color: white;
+    text-decoration: none;
+    padding: 15px 40px;
+    border-radius:  4px;
+    box-shadow:  0px 7px rgba(80, 76, 76, 0.904);
+}
+
+.startbuttom:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.startbuttom:active{
+    box-shadow: none;
+    position: relative;
+    top: 7px;
+}
+.clear{
+    clear: right;
+}
+/* タブレット向けレイアウト */
+@media all and (max-width: 1000px) {
+    .top{
+        padding-top: 600px ;
+    }
+    .top h1{
+        font-size: 40px;
+        font-weight: 550;
+    }   
+    .lessoncontent{
+        width: 50%;
+    } 
+    .topinside{
+        padding-left: 10% ;
+    }    
+    .topinside a{
+        width: 240px;
+        margin-right: 30px;
+    }
+  
+.facebook{
+    margin-bottom: 10px;
+}
+
+
+    .lessoncontent p{
+        padding-bottom: 50px;
+    }
+}
+
+/* モバイル向けレイアウト */
+@media all and (max-width: 670px) {
+    .top{
+        padding-top: 600px ;
+    }
+
+  .top h1 {
+    font-size: 30px;
+    font-weight: 550;
+  }
+
+  .topinside{
+      padding-left: 10% ;
+  }
+
+    .topinside a{
+        width: 240px;
+        margin-right: 30px;
+    }
+  
+.facebook{
+    margin-bottom: 10px;
+}
+
+.lessoncontent{
+    width: 100%;
+}
+
+.lessoncontent p{
+    padding-bottom: 50px;
+}
+}
