@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Progate</title>
+    <link rel="stylesheet" href="stylesheet.css8">
+    <script src="https://kit.fontawesome.com/ef620789a8.js" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+    <div class="top">
+      <div class="topinside">
+
+        <h1>勝ち取れ</h1>
+        <h1>ー己が信じるー</h1>
+        <h1><span>正義</span>の為に。</h1>
+
+        <a href="#" class="signup">新規登録はこちら</a>
+        <p class="or">or</p>
+        <a href="#" class="facebook"><i class="fa fa-facebook"></i>Facebookで登録</a>
+        <a href="#" class="twitter"><i class="fa fa-twitter"></i>Twitterで登録</a>
+      </div>
+    </div>
+
+    <div class="header">
+      <div class="headerinside">
+        <img src="https://cdn140.picsart.com/279990915013211.png" alt="写真" width="150px" height="65px">
+        <a href="#" class="login ">ログイン</a>
+      </div>
+    </div>
+
+    <div class="lesson">
+      <h1>GAME MODE</h1>
+      <div class="lessoninside">
+        <div class="lessoncontent">
+          <div class="lessonrelative">
+            <img src="https://prog-8.com/images/html/advanced/jQuery.png" alt="">
+            <h5>ストーリーモード</h5>
+            
+            <p>OJ２でしか見られない視点から<br>
+              物語を楽しむことが出来るぞ。</p>
+         </div>
+        </div>
+        <div class="lessoncontent">
+          <div class="lessonrelative">
+            <img src="https://prog-8.com/images/html/advanced/jQuery.png" alt="">
+            <h5>カスタマイズ</h5>
+            
+            <p>手に入れたアイテムを使って自分好みに<br>
+              キャラクターを着飾ることができるぞ！</p>
+          </div>
+        </div>       <div class="lessoncontent">
+          <div class="lessonrelative">
+            <img src="https://prog-8.com/images/html/advanced/jQuery.png" alt="">
+            <h5>フォトモード</h5>
+            
+            <p>フォトモードで自分だけの<br>
+              １枚を撮影しよう！<br>
+            </div>
+        </div>       
+        <div class="lessoncontent">
+          <div class="lessonrelative">
+            <img src="https://prog-8.com/images/html/advanced/jQuery.png" alt="">
+            <h5>ネットワーク対戦</h5>
+            
+            <p>オンラインを通じて<br>
+              世界中のプレイヤーに<br>
+              挑戦しよう！<br>
+            </div>
+        </div>
+        <div class="clear"></div>
+      </div>
+     
+    </div>
+
+    <div class="message">
+      <h2>※画面は開発中のものです。</h2>
+      <div class="messageinside">
+      <p>本製品をプレイするには、ゲーム内に表示されるサービス利用規約に同意する必要があります。詳しくは<a href="https://www.bandainamcoent.co.jp/cs/kiyaku/eula/?_ga=2.212321552.528031106.1621686371-22144258.1617555249"　class="precautions" style="color: white;">コチラ</a>をご確認ください。</p>
+      <p class="name">©堀越耕平／集英社・僕のヒーローアカデミア製作委員会<br>
+         ©BANDAI NAMCO Entertainment Inc.</p>
+         <a href="#" class="startbuttom">さっそく開始する</a>
+      </div>
+    </div>
+  </body>
+  </head>
+</html> 
